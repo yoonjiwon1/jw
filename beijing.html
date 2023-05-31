@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Text Styling</title>
+        <meta charset="utf-8">
+    <style>
+        h1.logo b,
+        .navigation a:first-child,
+        .navigation a,
+        .navigation b {
+            font-weight: bold;
+        }
+        body{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: center;
+            margin-top: 60px;
+            margin-bottom: 60px;
+        }
+        h1 {
+            text-align: center;
+            border: 8px solid gray; 
+            display: inline-block;
+            padding: 5px 80px;
+            letter-spacing: 20px;
+            margin: auto;
+        }
+        .logo {
+            border: 8px solid black;
+            display: inline-block;
+            padding: 5px 80px;
+            letter-spacing: 10px;
+            margin-left: 50px; 
+            margin-right: 50px;
+        }             
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+        .imgmain{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .navigation a, .navigation b {
+            margin: 0 20px;
+        }
+        .navigation a:first-child {
+            font-weight: bold;
+        }
+        .navigation a {
+            text-decoration: none;
+            color: gray;
+            font-size: 15px;
+        }
+        .navigation a:nth-child(4) {
+        color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">Travel</div>
+    <div class="navigation">
+        <a href="home.html"><span style="color: #DDDDDD">Home</span></a>
+        <a href="beijing.html"><span style="color: #000000">Beijing</span></a>
+        <a href="brasilia.html"><span style="color: #DDDDDD">Brasilia</span></a>
+        <a href="london.html"><span style="color:#DDDDDD">London</span></a>
+    </div>
+    <div class="Photo">
+        <img src="https://images.unsplash.com/photo-1584872589930-e99fe5bf4408?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1777&q=80" alt="Beijing" width="700" height="500">
+    </div>
+</body>
+</html>
